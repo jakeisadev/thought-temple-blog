@@ -1,0 +1,329 @@
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+}
+
+main {
+  background-color: #fff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.2rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+nav ul li {
+  list-style-type: none;
+  color: #fff;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.title-div {
+  width: 200px;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.title-div h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Crimson Text", serif;
+}
+
+.title-div h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Crimson Text", serif;
+}
+
+.title-div h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Crimson Text", serif;
+}
+
+blockquote {
+  width: 250px;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+p#quotation {
+  color: #fff;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+p#source {
+  color: #fff;
+}
+
+section#welcome {
+  margin-top: 2em;
+  background-color: #fff;
+}
+
+section#welcome h1 {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  padding-top: 0.8em;
+  margin: auto;
+  width: 300px;
+  line-height: 1.2;
+}
+
+section#welcome .title-font {
+  font-size: 1.6rem;
+  font-family: "Crimson Text", serif;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 1em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/tree-sunset.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: 175%;
+  -webkit-transition: all 0.2s ease-in-out;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.card-two {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/patience.jpg");
+}
+
+.card-three {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/code.jpg");
+}
+
+.card-four {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/coder-mindset.jpg");
+}
+.card:hover {
+  background-size: 185%;
+}
+
+.card-title p {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  width: 180px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  color: #fff;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 0.8rem 0 0.8rem 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+}
+
+.card-footer p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Crimson Text", serif;
+}
+
+.card-footer svg {
+  width: 35px;
+  height: 35px;
+}
+
+.card-footer .footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card-footer .footer-text:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  letter-spacing: 0.1rem;
+}
+
+section#newsletter {
+  background-color: #212121;
+  color: #fff;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+section#newsletter form {
+  background-color: #fff;
+  width: 300px;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  padding-bottom: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+section#newsletter h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.8rem;
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  padding-top: 1em !important;
+}
+
+section#newsletter h2 {
+  color: #212121;
+  font-family: "Crimson Text", serif;
+  width: 175px;
+  text-align: center;
+}
+
+section#newsletter hr {
+  background-color: #212121 !important;
+  height: 3px;
+  width: 25%;
+  margin-top: 0.3em !important;
+}
+
+section#newsletter .form-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  font-family: "Crimson Text", serif;
+}
+
+section#newsletter input {
+  width: 250px;
+  height: 35px;
+  padding-left: 0.1em;
+  border-bottom: 2px solid #212121 !important;
+  margin-top: 0.8em;
+  font-size: 1.2rem;
+  color: #212121;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  outline: none;
+  padding: 1em;
+  display: inline-block;
+  font-family: "Crimson Text", serif;
+}
+
+section#newsletter input:focus {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+section#newsletter input#dob {
+  border: 2px solid #212121 !important;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 1.2em;
+  width: 200px;
+  display: -webkit-inline-flex;
+}
+
+[type="date"] {
+  background: #fff
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+section#newsletter .checks {
+  display: inline-block;
+  align-content: center;
+  align-items: center;
+  margin-top: 1.5em;
+  width: 300px;
+}
+
+input[type="checkbox"] {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+section#newsletter .checks .check-text {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 200px;
+  margin: auto;
+  color: #212121;
+}
+
+section#newsletter .checks .check-text p {
+  padding: 0.8em 0 0 1em;
+}
+
+section#newsletter button#submit {
+  margin: auto;
+  width: 150px;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  font-family: "PT Sans", sans-serif;
+  text-align: center !important;
+  margin-top: 1.5em !important;
+  color: #fff;
+  background-color: #212121;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  outline: none;
+}
+
+section#newsletter .small-text {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 250px;
+  font-size: 0.9rem;
+  margin: auto;
+  margin-top: 1.2em !important;
+}
+
+@media screen and (min-width: 996px) {
+  .links {
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
